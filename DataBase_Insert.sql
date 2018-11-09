@@ -220,8 +220,8 @@ insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY) values (20, 'Paso de los Lib
 --insertar medios de pag
 insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (1, 'Tarjeta de credito');
 insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (2, 'Efectivo');
-insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (3, 'PSE');
 insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (3, 'PayPal');
+insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (4, 'PSE');
 
 --insertar personas
 Insert into PEOPLE (ID_PERSON,FIRST_NAME,LAST_NAME,EMAIL,SECOND_EMAIL,PASSWORD,INVITATION_CODE,MOBILE,URL_PHOTO,ID_CITY,LANGUAGE) values ('1','Larine','Ticehurst','lticehurst0@tiny.cc',null,'5LMJJ2HT2FE480316','55154-6983','3399756283','http://dummyimage.com/230x200.jpg/dddddd/000000','1','Español');
@@ -824,7 +824,6 @@ Insert into PEOPLE (ID_PERSON,FIRST_NAME,LAST_NAME,EMAIL,SECOND_EMAIL,PASSWORD,I
 Insert into PEOPLE (ID_PERSON,FIRST_NAME,LAST_NAME,EMAIL,SECOND_EMAIL,PASSWORD,INVITATION_CODE,MOBILE,URL_PHOTO,ID_CITY,LANGUAGE) values ('598','Drud','Maffi','dmaffigl@wordpress.org',null,'WBABD53414P013004','52959-880','9442937022','http://dummyimage.com/134x165.jpg/ff4444/ffffff','18','Chino');
 Insert into PEOPLE (ID_PERSON,FIRST_NAME,LAST_NAME,EMAIL,SECOND_EMAIL,PASSWORD,INVITATION_CODE,MOBILE,URL_PHOTO,ID_CITY,LANGUAGE) values ('599','Jorey','Atcock','jatcockgm@biglobe.ne.jp',null,'WBAKG7C56BE669865','49349-634','3852386659','http://dummyimage.com/197x215.jpg/ff4444/ffffff','19','Lithuanian');
 Insert into PEOPLE (ID_PERSON,FIRST_NAME,LAST_NAME,EMAIL,SECOND_EMAIL,PASSWORD,INVITATION_CODE,MOBILE,URL_PHOTO,ID_CITY,LANGUAGE) values ('600','Cinnamon','Snadden','csnaddengn@t-online.de','csnaddengn@smh.com.au','1GYS3CEF9DR083387','58118-0079','1322615187','http://dummyimage.com/175x243.jpg/cc0000/ffffff','20','Tajik');
-	
 
 --insertar usuario medios de pago
 insert into PAYMENT_PEOPLE (ID_PAYMENT_PERSON, ID_PAYMENT, ID_PERSON, DESCRIPTIONS, BUSINESS) values (1, 1, 1, '[{}]', 'true');
@@ -1429,26 +1428,26 @@ insert into PAYMENT_PEOPLE (ID_PAYMENT_PERSON, ID_PAYMENT, ID_PERSON, DESCRIPTIO
 insert into PAYMENT_PEOPLE (ID_PAYMENT_PERSON, ID_PAYMENT, ID_PERSON, DESCRIPTIONS, BUSINESS) values (600, 3, 600, '[{}]', 'true');
 
 --codigos promocionales
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (1, 5, '09/10/2018', 'integrate bleeding-edge e-tailers');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (2, 6, '09/10/2018', 'iterate web-enabled schemas');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (3, 7, '09/10/2018', 'visualize mission-critical markets');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (4, 8, '09/10/2018', 'repurpose cross-media ROI');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (5, 9, '09/10/2018', 'synergize virtual synergies');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (6, 10, '09/10/2018', 'exploit best-of-breed models');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (7, 11, '09/10/2018', 'exploit transparent architectures');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (8, 12, '09/10/2018', 'revolutionize real-time communities');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (9, 13, '09/10/2018', 'revolutionize enterprise synergies');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (10, 14, '09/10/2018', 'repurpose frictionless channels');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (11, 15, '09/10/2018', 'facilitate robust e-business');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (12, 16, '09/10/2018', 'deploy efficient platforms');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (13, 17, '09/10/2018', 'transition intuitive e-services');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (14, 18, '09/10/2018', 'orchestrate efficient relationships');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (15, 19, '09/10/2018', 'scale B2C solutions');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (16, 20, '09/10/2018', 'enable sticky relationships');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (17, 5, '09/10/2018', 'visualize customized platforms');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (18, 6, '09/10/2018', 'facilitate virtual ROI');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (19, 7, '09/10/2018', 'target open-source e-tailers');
-insert into PROMOTION_CODES (ID_CODE, COURANGE, VALIDITY, DESCRIPTION) values (20, 8, '09/10/2018', 'implement dynamic applications');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (1, 5, '09/10/2018', 'integrate bleeding-edge e-tailers');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (2, 6, '09/10/2018', 'iterate web-enabled schemas');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (3, 7, '09/10/2018', 'visualize mission-critical markets');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (4, 8, '09/10/2018', 'repurpose cross-media ROI');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (5, 9, '09/10/2018', 'synergize virtual synergies');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (6, 10, '09/10/2018', 'exploit best-of-breed models');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (7, 11, '09/10/2018', 'exploit transparent architectures');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (8, 12, '09/10/2018', 'revolutionize real-time communities');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (9, 13, '09/10/2018', 'revolutionize enterprise synergies');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (10, 14, '09/10/2018', 'repurpose frictionless channels');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (11, 15, '09/10/2018', 'facilitate robust e-business');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (12, 16, '09/10/2018', 'deploy efficient platforms');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (13, 17, '09/10/2018', 'transition intuitive e-services');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (14, 18, '09/10/2018', 'orchestrate efficient relationships');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (15, 19, '09/10/2018', 'scale B2C solutions');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (16, 20, '09/10/2018', 'enable sticky relationships');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (17, 5, '09/10/2018', 'visualize customized platforms');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (18, 6, '09/10/2018', 'facilitate virtual ROI');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (19, 7, '09/10/2018', 'target open-source e-tailers');
+insert into PROMOTION_CODES (ID_CODE, COURAGE, VALIDITY, DESCRIPTION) values (20, 8, '09/10/2018', 'implement dynamic applications');
 
 --insertar codigos de usuarios
 insert into PERSON_CODES (ID_PERSON_CODE, ID_PROMOTION_CODE, ID_PERSON, STATUS) values (1, 1, 1, 0);
@@ -1799,8 +1798,9 @@ insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, 
 insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (6, 6, 1, 91.23, 91.23, 2, 93.2);
 insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (7, 7, 1, 80.93, 80.93, 0, 80.93);
 insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (8, 8, 1, 58.13, 58.13, 7, 64.13);
-insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (9, 9, 1, 97.84, 97.84, 7, 7, 111.84);
-insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (10, 10, 1, 57.1, 57.1, 9, 3, 69.1);
+insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (9, 9, 1, 97.84, 97.84, 7, 111.84);
+insert into TRAVEL_DETAIL (ID_TRAVEL_DETAIL, ID_TRAVEL, ID_PERSON, TRAVEL_COST, SUBTOTAL, COMMISSIONS, TOTAL) values (10, 10, 1, 57.1, 57.1, 9, 69.1);
+
 --insertar puntos gps a viajes
 insert into GPS_POSITION (ID_GPS_POSITION, ID_TRAVEL, GPS_LATITUDE, GPS_LONGITUDE) values (1, 1, 110.228747, 32.224808);
 insert into GPS_POSITION (ID_GPS_POSITION, ID_TRAVEL, GPS_LATITUDE, GPS_LONGITUDE) values (2, 2, 113.228291, 23.101153);
