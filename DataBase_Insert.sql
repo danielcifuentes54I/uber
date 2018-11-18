@@ -217,7 +217,7 @@ insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY, TARIFA_KILOMETRO, TARIFA_MIN
 insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY, TARIFA_KILOMETRO, TARIFA_MINUTOS, TARIFA_BASE) values (cities_seq.nextval, 'Candelaria', '7' , 3.94, 3.26, 4.1);
 insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY, TARIFA_KILOMETRO, TARIFA_MINUTOS, TARIFA_BASE) values (cities_seq.nextval, 'Villa Gesell', '7' , 3.25, 3.16, 3.9);
 insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY, TARIFA_KILOMETRO, TARIFA_MINUTOS, TARIFA_BASE) values (cities_seq.nextval, 'Paso de los Libres', '7' , 3.52, 3.36, 4.12);
-
+insert into CITIES (ID_CITY, NAME_CITY, ID_COUNTRY, TARIFA_KILOMETRO, TARIFA_MINUTOS, TARIFA_BASE) values (cities_seq.nextval, 'Medellin', '1' , 764.525994, 178.571429, 2500);
 --insertar medios de pag
 insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (payment_methods_seq.nextval, 'Tarjeta de credito');
 insert into PAYMENT_METHODS (ID_PAYMENT, DESCRIPTIONS) values (payment_methods_seq.nextval, 'Efectivo');
